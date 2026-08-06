@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/sh
+# RSSHub 日志服务
+# 安装位置: $PREFIX/var/service/rsshub/log/run
+exec svlogd -tt /data/data/com.termux/files/home/soft/RSSHub/data/logs/
